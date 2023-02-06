@@ -1,0 +1,35 @@
+
+@use "/src/scss/mixins" as *;
+@use "/src/scss/variables" as *;
+
+.header {
+    color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    height: 60vh;
+    background: url('/assests/images/lunchlady.jpg');
+    object-fit: cover;
+    background-position: center;
+    position: relative;
+    
+
+    h1 {
+        font-size: 3rem;
+        z-index: 1;
+        background-color: rgba(14, 8, 8, 0.808);
+        @include mobile {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+}
