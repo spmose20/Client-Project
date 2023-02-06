@@ -3,7 +3,6 @@ Create 3-tier application JS, Node and Mongo application
 
 Part #1
 Using Vagrant create a code to set our development environment
-Use Ansible for provisioning
 Deployment will be to AWS
 
 Part#2
