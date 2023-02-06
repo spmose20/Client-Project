@@ -1,5 +1,4 @@
-<!-- Final Project "Nology High School" -->
-<!--
+Final Project "Nology High School"
 Create 3-tier application JS, Node and Mongo application
 
 Part #1
