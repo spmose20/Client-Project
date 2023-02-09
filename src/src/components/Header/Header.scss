@@ -1,0 +1,36 @@
+
+@use "/src/scss/mixins" as *;
+@use "/src/scss/variables" as *;
+
+.header {
+    color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    height: 60vh;
+    background-image: url('./photo-of-woman-using-laptop-3194518.jpg');
+    background-size: fill;
+    background-position: center;
+    position: relative;
+    
+
+    h1 {
+        font-size: 3rem;
+        z-index: 1;
+        background-color: rgba(14, 8, 8, 0.608);
+        border-radius: 20px;
+        @include mobile {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+}

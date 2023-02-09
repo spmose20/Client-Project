@@ -1,0 +1,28 @@
+iframe{
+  border: 5px solid black;
+  
+}
+
+.video-flex{
+  display: flex;
+  justify-content: center;
+  background-color:  tan;
+  justify-content: space-around;
+  .text-box{
+    background-color: goldenrod;
+    min-width: 440px;
+    border: 4px solid black;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    p{
+      font-size: 20px;
+    }
+    li{
+      font-size: 15px;
+      font-style: italic;
+      list-style: none;
+    }
+  }
+}
+

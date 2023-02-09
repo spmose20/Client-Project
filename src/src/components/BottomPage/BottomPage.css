@@ -1,0 +1,10 @@
+.main-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+.main-div div {
+  display: grid;
+  grid-template-columns: auto;
+}/*# sourceMappingURL=BottomPage.css.map */
