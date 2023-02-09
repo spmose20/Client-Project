@@ -39,7 +39,7 @@ function App() {
 
     const filterResults = beersArray.filter(result => {
         let beerHasMatched = true;
-      
+         
         if (searchTerm) {
           beerHasMatched = result.name.toLowerCase().includes(searchTerm);
         }
