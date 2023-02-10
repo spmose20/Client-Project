@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const db = require("./app/models");
-
+mongoose.connect(("mongodb+srv://roma2:7HZin97asMtDqtmA@cluster-of-employee-dat.h4nhduo.mongodb.net/Profile?retryWrites=true&w=majority"), {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
