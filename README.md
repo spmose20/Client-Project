@@ -1,12 +1,9 @@
-Final Project "Nology High School"
+# Node.js Express & MongoDB:
 
-Create 3-tier application JS, Node and Mongo application
+# Project setup
 
-Part #1
-Using Vagrant create a code to set our development environment
-Deployment will be to AWS
+npm install
 
-Part#2
-Testing will need to be added to the application
-Github added
-README.md with full deployment pipeline and how to use in development -->
+# Run
+
+node server.js
