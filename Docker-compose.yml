@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  app:
+    build: ./src
+    container_name: 'app'
+    image: "clientproject/frontend"
+    ports:
+      - "3000:30"
+    volumes:
+      - /app
+  api:
+    build: ./nodeapi
+    container_name: myapp
+    ports:
+      - 4000:80
+    volumes:
+     - ./app
+    stdin_open: true
+    tty: true
