@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   app:
-    build: ./client-project
+    build: ./src
     container_name: 'app'
     image: "clientproject/frontend"
     ports:
@@ -9,7 +9,7 @@ services:
     volumes:
       - /app
   api:
-    build: ./nodeapi/Client-Project
+    build: ./nodeapi
     container_name: myapp
     ports:
       - 4000:80
