@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import School from '../school.js'
 import './App.css';
 import BeerInfo from './components/BeerInfo/BeerInfo';
 import BeersList from './components/BeersList/BeersList';
